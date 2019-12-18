@@ -23,7 +23,7 @@ title: "编码规范"
 1.2.20 或更高版本，转到 __Settings | Editor | Code Style | Kotlin__，点击右<!--
 -->上角的 __Set from...__ 链接，并从菜单中选择 __Predefined style | Kotlin style guide__。
 
-如需验证代码已按风格指南格式化，请转到探查设置（Inspections）并启用
+如需验证代码已按风格指南格式化，请转到 __Settings | 探查设置（Inspections）并启用
 __Kotlin | Style issues | File is not formatted according to project settings__ 探查项。
 验证风格指南中描述的其他问题（如命名约定）的附加探查项默认已启用。
 
@@ -134,7 +134,7 @@ fun FooImpl(): Foo { return FooImpl() }
 
 #### 测试方法的名称
 
-**当且仅当**在测试中，可以使用反引号括起来的带空格的方法名。
+**仅**在测试中，可以使用反引号括起来的带空格的方法名。
 （请注意，Android 运行时目前不支持这样的方法名。）测试代码中<!--
 -->也允许方法名使用下划线。
 
